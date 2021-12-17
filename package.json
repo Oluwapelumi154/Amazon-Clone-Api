@@ -1,0 +1,30 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "An Application Programming Interface built with Express, Sequelize, MySql ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oluwapelumi154/Amazon-Clone-Api.git"
+  },
+  "author": "Orebayo Oluwapelumi Michael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oluwapelumi154/Amazon-Clone-Api/issues"
+  },
+  "homepage": "https://github.com/Oluwapelumi154/Amazon-Clone-Api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0",
+    "sequelize": "^5.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
